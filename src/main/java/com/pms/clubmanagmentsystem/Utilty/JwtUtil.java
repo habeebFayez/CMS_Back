@@ -25,7 +25,7 @@ public class JwtUtil {//used for filtering the token by getting token data
     private UserRepository userRepository;
     //5hours validity
     public static final long JwtTokenValidity = 5 * 60 * 60;
-    private final String SECRET_KEY = "hH8%Kg$k2@K3!/ffWFRew$6!W5#yi876543*&HKkJd/&%kfQXzO0*TeR5%4#2Q";
+    private final String SECRET_KEY = "**********";
 
     public String getEmailFromTohen(String token) {
         return getClaimFromToken(token, Claims::getSubject);
