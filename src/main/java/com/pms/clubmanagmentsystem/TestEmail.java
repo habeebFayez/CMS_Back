@@ -39,7 +39,7 @@ public class TestEmail {
 //                props.put("mail.debug", "true");
 //                props.put("mail.smtp.auth", "true");
 //                props.put("spring.mail.username","habeeb.fayez@gmail.com");
-//                props.put("spring.mail.password", "fvaiuzwyaisrqbzp");
+//                props.put("spring.mail.password", "*********");
 //
 //                Session session = Session.getInstance(props, new Authenticator() {
 //protected PasswordAuthentication getPasswordAuthentication() {
